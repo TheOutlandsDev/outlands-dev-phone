@@ -1,6 +1,6 @@
 # v0.2 release record
 
-This source release was evaluated on one Android 16 phone. The [public repository](https://github.com/TheOutlandsDev/outlands-dev-phone) has been created. Reviewed source upload and final remote-tree comparison are the remaining publication steps. No binary release is planned, and archive contents have not been independently checked.
+This source release was evaluated on one Android 16 phone and published to the [public repository](https://github.com/TheOutlandsDev/outlands-dev-phone). The initial complete source revision is [e502f4d](https://github.com/TheOutlandsDev/outlands-dev-phone/commit/e502f4dbc951d608fef69df40211faa941fd03ef). A separate GitHub API tree read matched all 43 approved file paths, blob identities, and sizes. This record documents that completed check. No binary release was published, and archive contents have not been independently checked.
 
 ## Passed evaluation gates
 
@@ -34,13 +34,13 @@ Copy only explicitly reviewed source files: the root README, license and ignore 
 
 Exclude `artifacts`, build outputs, caches, SDKs, installed runtimes, signing keys, firmware, private configuration, logs, evidence, screenshots, and backups. Ignore rules support this boundary; the final file manifest is the acceptance check.
 
-## Remaining publication gates
+## Completed publication gates
 
-- [ ] Copy the explicit reviewed file list into the clean publication tree.
-- [ ] Upload that source tree to the existing public repository.
-- [ ] Compare the final remote tree with the approved file manifest and record the published source revision.
+- [x] Copy the explicit reviewed file list into the clean publication tree.
+- [x] Upload that source tree to the existing public repository.
+- [x] Compare the remote source tree with the approved file manifest and record the published source revision.
 
-These publication gates remain open until the actual copy/upload/comparison is completed. An initial repository README does not establish that the source tree has been uploaded. If an archive is produced later, inspect its contents separately before claiming archive acceptance.
+The source was copied with an explicit allowlist and checked against the staged Git blobs before upload. The remote source-tree comparison passed independently after upload. Later documentation-only commits record the result. If an archive is produced later, inspect its contents separately before claiming archive acceptance.
 
 ## Optional and unqualified follow-up
 
