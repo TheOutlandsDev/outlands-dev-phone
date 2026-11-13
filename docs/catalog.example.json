@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "id": "example-dashboard",
+      "label": "Example dashboard",
+      "category": "Ops",
+      "url": "https://dashboard.example",
+      "description": "A fictional placeholder. Configure your real service privately."
+    }
+  ]
+}

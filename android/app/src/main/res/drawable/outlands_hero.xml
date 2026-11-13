@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Local geometric study; replace this asset with approved original artwork if desired. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="480dp" android:height="240dp"
+    android:viewportWidth="480" android:viewportHeight="240">
+    <path android:fillColor="#130E13" android:pathData="M0,0H480V240H0Z" />
+    <path android:fillColor="#3C151D" android:pathData="M0,240L224,116L480,240Z" />
+    <path android:fillColor="#8E242D" android:pathData="M85,218V40L168,14V218Z" />
+    <path android:fillColor="#D23D3C" android:pathData="M85,40L168,14V218L138,232V59Z" />
+    <path android:fillColor="#591923" android:pathData="M168,14L196,33V206L168,218Z" />
+    <path android:fillColor="#AB292F" android:pathData="M216,197V70L294,42V197Z" />
+    <path android:fillColor="#EC5147" android:pathData="M216,70L294,42V197L269,207V84Z" />
+    <path android:fillColor="#5D1A23" android:pathData="M294,42L321,60V185L294,197Z" />
+    <path android:fillColor="#9E272E" android:pathData="M338,205V108L391,86V205Z" />
+    <path android:fillColor="#D13E3C" android:pathData="M338,108L391,86V205L373,213V119Z" />
+    <path android:fillColor="#4B1822" android:pathData="M391,86L414,100V195L391,205Z" />
+    <path android:fillColor="#080B11" android:fillAlpha="0.38" android:pathData="M0,218H480V240H0Z" />
+</vector>
