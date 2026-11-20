@@ -1,4 +1,4 @@
-# Outlands Home Android v0.2
+# Outlands Home Android
 
 Native Java Home/launcher source. Package `dev.outlands.launcher`, display name
 **Outlands Home**, minimum API 26, compile/target API 36. No external runtime
@@ -51,6 +51,9 @@ SDK, signing keys, or prebuilt APK.
 - Apply Outlands wallpaper is an explicit Settings action for the bundled local
   asset (Home and lock screen). It uses only the normal `SET_WALLPAPER`
   permission, works off the UI thread, and never runs automatically on launch.
+- Version 0.3 adds Home actions for **Change Library** and **Readiness Queue**.
+  Saved briefs support comparison, local checklist review, local notes, and
+  a reviewed Markdown export. See [offline workflows](../docs/OFFLINE-WORKFLOWS.md).
 
 ## Service catalog import
 

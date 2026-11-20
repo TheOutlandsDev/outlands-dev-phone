@@ -262,6 +262,10 @@ public final class MainActivity extends Activity {
         quick.add(actionCard("02 / NETWORK", "Tailscale", "Open Tailscale", () -> openPackage("com.tailscale.ipn", "Tailscale")));
         quick.add(actionCard("03 / CODEX", "Codex", "Copy command + open Termux", () -> copyAndOpenTermux("~/bin/codex-pc")));
         quick.add(actionCard("04 / TOOLKIT", "Local tools", "Languages and utilities", this::showLocalTools));
+        quick.add(actionCard("RELEASES", "Change Library", "Import and compare saved briefs",
+                () -> startActivity(new Intent(this, ChangeBriefingActivity.class))));
+        quick.add(actionCard("READINESS", "Readiness Queue", "Review saved checklist results",
+                () -> startActivity(new Intent(this, ReadinessQueueActivity.class))));
         addGrid(quickGrid, quick);
         content.addView(quickGrid, matchWrap());
         space(content, 25);

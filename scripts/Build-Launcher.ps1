@@ -12,9 +12,9 @@ param(
     [string]$BuildToolsVersion = '36.1.0',
     [ValidateSet(36)][int]$ApiLevel = 36,
     [ValidateRange(26,36)][int]$MinSdk = 26,
-    [ValidateRange(1,2147483647)][int]$VersionCode = 2,
+    [ValidateRange(1,2147483647)][int]$VersionCode = 3,
     [ValidatePattern('^[0-9]+\.[0-9]+\.[0-9]+([.-][a-zA-Z0-9]+)*$')]
-    [string]$VersionName = '0.2.0',
+    [string]$VersionName = '0.3.0',
     [ValidateSet('dev.outlands.launcher')]
     [string]$ApplicationId = 'dev.outlands.launcher',
     [string]$SourceRoot = (Join-Path $PSScriptRoot '..\android\app\src\main'),

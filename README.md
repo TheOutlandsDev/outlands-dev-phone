@@ -2,6 +2,11 @@
 
 An Android development console with local Termux tools, private network access, and a terminal connection to an existing development PC.
 
+**v0.3 offline workflow source** adds Change Library, Readiness Queue, local
+review notes, and redacted Markdown handoffs. The source also includes a
+local Git brief builder, a ZIP handoff verifier, and a local event analyzer.
+[Offline workflows](docs/OFFLINE-WORKFLOWS.md)
+
 **v0.2 source release, evaluated on one Android 16 phone.** The reviewed source is [published on GitHub](https://github.com/TheOutlandsDev/outlands-dev-phone). All 43 published source files matched the approved path, blob, and size manifest. Accepted workflows and their limits are recorded below and in the [release record](docs/RELEASE-CHECKLIST.md). This is source and documentation, with no firmware, installed runtimes, or prebuilt APK included in the publication.
 
 The evaluated setup can run small Python, JavaScript, Go, Rust, C, and C++ programs locally. Tailscale connects it to existing infrastructure. Codex runs on an authenticated PC engine, with the phone providing the terminal interface over SSH. Remote services keep running on their own hosts.
